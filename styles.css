@@ -1,5 +1,5 @@
 .header-bar {
-    background-color: purple;
+    background-color: white;
     color: white;
     padding: 20px;
     text-align: center;
@@ -16,7 +16,7 @@
   
   .content {
     background-image: url(https://github.com/obash-cpu/obash-cpu/blob/master/pictures/bright-education-logo-2AJ06MD.jpg?raw=true);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     padding: 50px;
   }
