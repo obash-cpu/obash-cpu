@@ -18,6 +18,7 @@
   color: blue;
   text-decoration: none;
   font-weight: bold;
+  float: right;
 }
 
 a:hover {
