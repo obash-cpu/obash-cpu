@@ -13,17 +13,18 @@
     margin-left: 10px;
     text-decoration: none;
   }
-  
-  a {
+
+  a.start-quiz {
   color: blue;
   text-decoration: none;
   font-weight: bold;
   float: right;
 }
 
-a:hover {
+a.start-quiz:hover {
   text-decoration: underline;
 }
+
 
   .content {
     background-image: url(https://github.com/obash-cpu/obash-cpu/blob/master/pictures/bright-education-logo-2AJ06MD.jpg?raw=true);
