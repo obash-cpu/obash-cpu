@@ -27,6 +27,18 @@ a.start-quiz:hover {
   text-decoration: underline;
 }
 
+a.contact-us {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+a.contact-us:hover {
+  text-decoration: underline;
+}
 
   .content {
     background-image: url(https://github.com/obash-cpu/obash-cpu/blob/master/pictures/bright-education-logo-2AJ06MD.jpg?raw=true);
