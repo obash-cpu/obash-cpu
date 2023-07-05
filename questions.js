@@ -10,6 +10,46 @@ var questions = [
       choices: ["Venus", "Mars", "Jupiter", "Saturn"],
       answer: 1
     },
+	 {
+      question: "Question 1: What is the capital of France?",
+      choices: ["Paris", "London", "Berlin", "Madrid"],
+      answer: 0
+    },
+    {
+      question: "Question 2: Which planet is known as the Red Planet?",
+      choices: ["Venus", "Mars", "Jupiter", "Saturn"],
+      answer: 1
+    },
+	 {
+      question: "Question 1: What is the capital of France?",
+      choices: ["Paris", "London", "Berlin", "Madrid"],
+      answer: 0
+    },
+    {
+      question: "Question 2: Which planet is known as the Red Planet?",
+      choices: ["Venus", "Mars", "Jupiter", "Saturn"],
+      answer: 1
+    },
+	 {
+      question: "Question 1: What is the capital of France?",
+      choices: ["Paris", "London", "Berlin", "Madrid"],
+      answer: 0
+    },
+    {
+      question: "Question 2: Which planet is known as the Red Planet?",
+      choices: ["Venus", "Mars", "Jupiter", "Saturn"],
+      answer: 1
+    },
+	 {
+      question: "Question 1: What is the capital of France?",
+      choices: ["Paris", "London", "Berlin", "Madrid"],
+      answer: 0
+    },
+    {
+      question: "Question 2: Which planet is known as the Red Planet?",
+      choices: ["Venus", "Mars", "Jupiter", "Saturn"],
+      answer: 1
+    },
     // Add more questions here...
   ];
   
