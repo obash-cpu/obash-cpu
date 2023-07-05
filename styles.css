@@ -42,10 +42,11 @@ a.contact-us:hover {
 
   .content {
     background-image: url(https://github.com/obash-cpu/obash-cpu/blob/master/pictures/bright-education-logo-2AJ06MD.jpg?raw=true);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   
   .side-links {
