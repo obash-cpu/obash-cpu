@@ -66,7 +66,7 @@ var questions = [
     questionText.textContent = questions[currentQuestionIndex].question;
     questionElement.appendChild(questionText);
   
-O[O    var choicesElement = document.createElement("div");
+    var choicesElement = document.createElement("div");
     choicesElement.classList.add("choices");
   
     var choices = questions[currentQuestionIndex].choices;
