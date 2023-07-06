@@ -66,7 +66,7 @@ var questions = [
     questionText.textContent = questions[currentQuestionIndex].question;
     questionElement.appendChild(questionText);
   
-    var choicesElement = document.createElement("div");
+O[O    var choicesElement = document.createElement("div");
     choicesElement.classList.add("choices");
   
     var choices = questions[currentQuestionIndex].choices;
@@ -160,4 +160,21 @@ function goToLandingPage() {
   
   backLink.addEventListener("click", goToLandingPage);
   exitLink.addEventListener("click", exitQuiz);
-  
+  // Function to calculate and update the score
+function calculateScore() {
+  const choices = document.querySelectorAll(".choices li");
+  let score = 0;
+
+  choices.forEach((choice, index) => {
+    choice.addEventListener("click", () => {
+      if (index === questions[index].correctAnswer) {
+        score += 10;
+        choice.classList.add("correct");
+      } else {
+        choice.classList.add("incorrect");
+        choices[questions[index].correctAnswer].classList.add("correct");
+      }
+      document.getElementById("scoreInput").value = score; // Update score input field
+    });
+  });
+}
