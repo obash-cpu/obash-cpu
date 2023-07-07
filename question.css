@@ -1,19 +1,24 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: lightblue;
 }
 
 header {
   background-color: purple;
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
 header a {
   color: white;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 h1 {
   text-align: center;
+  margin-top: 20px;
 }
 
 .instructions {
@@ -24,13 +29,14 @@ h1 {
 
 .question {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .choices {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px auto;
 }
 
 .choices button {
@@ -73,4 +79,14 @@ h1 {
 #scoreInput {
   padding: 5px;
   width: 50px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
