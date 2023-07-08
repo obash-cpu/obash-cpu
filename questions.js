@@ -91,10 +91,11 @@ function displayResults() {
   var resultsElement = document.createElement("div");
   resultsElement.classList.add("results");
 
-  var scoreElement = document.createElement("p");
-  scoreElement.textContent = "Your final score is: " + score;
+  var scoreForm = document.getElementById("scoreForm");
+  var scoreInput = scoreForm.querySelector("#scoreInput");
+  scoreInput.value = score; // Update the score input value
 
-  resultsElement.appendChild(scoreElement);
+  resultsElement.appendChild(scoreForm); // Append the score form to the results element
   questionContainer.appendChild(resultsElement);
 }
 
