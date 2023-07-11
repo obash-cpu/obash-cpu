@@ -10,7 +10,8 @@ var questions = [
     choices: ["Venus", "Mars", "Jupiter", "Saturn"],
     answer: 1
   },
-	 question: "Question 3: Which animal is used to carry loads?",
+  {
+    question: "Question 3: Which animal is used to carry loads?",
     choices: ["rat", "camel", "goat", "cow"],
     answer: 1 
 },
