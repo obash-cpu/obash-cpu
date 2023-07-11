@@ -12,9 +12,9 @@ var questions = [
   },
 	 question: "Question 3: Which animal is used to carry loads?",
     choices: ["rat", "camel", "goat", "cow"],
-    answer: 1
-
-  // Add more questions here...
+    answer: 1 
+},
+// Add more questions here...
 ];
 
 var score = 0; // Initial score
