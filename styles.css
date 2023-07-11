@@ -93,9 +93,14 @@ a.contact-us:hover {
   }
   
   .author-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-left: 10px;
-  }
-  
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.author-image {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
