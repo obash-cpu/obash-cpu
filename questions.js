@@ -34,7 +34,7 @@ var questions = [
     question: "Question 7: Who wrote the play 'Romeo and Juliet'?",
     choices: ["William Shakespeare", "Jane Austen", "Charles Dickens", "F. Scott Fitzgerald"],
     answer: 0
-  }
+  },
   {
     question: "Question 8: Who discovered penicillin?",
     choices: ["Alexander Fleming", "Marie Curie", "Albert Einstein", "Isaac Newton"],
@@ -67,7 +67,7 @@ function addQuestion(question, choices, answer) {
     answer: answer
   };
   questions.push(newQuestion);
-},
+}
 // Function to display a question
 function displayQuestion() {
   var questionContainer = document.getElementById("questionContainer");
