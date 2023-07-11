@@ -15,6 +15,46 @@ var questions = [
     choices: ["rat", "camel", "goat", "cow"],
     answer: 1 
 },
+   {
+    question: "Question 4: What is the capital of Australia?",
+    choices: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    answer: 2
+  },
+  {
+    question: "Question 5: Who painted the Mona Lisa?",
+    choices: ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+    answer: 0
+  },
+  {
+    question: "Question 6: Which country is known for the Great Wall?",
+    choices: ["China", "India", "Japan", "Russia"],
+    answer: 0
+  },
+  {
+    question: "Question 7: Who wrote the play 'Romeo and Juliet'?",
+    choices: ["William Shakespeare", "Jane Austen", "Charles Dickens", "F. Scott Fitzgerald"],
+    answer: 0
+  }
+  {
+    question: "Question 8: Who discovered penicillin?",
+    choices: ["Alexander Fleming", "Marie Curie", "Albert Einstein", "Isaac Newton"],
+    answer: 0
+  },
+  {
+    question: "Question 9: Which is the largest ocean in the world?",
+    choices: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    answer: 0
+  },
+  {
+    question: "Question 10: What is the chemical symbol for gold?",
+    choices: ["Au", "Ag", "Fe", "Cu"],
+    answer: 0
+  },
+  {
+    question: "Question 11: Who was the first person to step on the moon?",
+    choices: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+    answer: 0
+  }
 // Add more questions here...
 ];
 
