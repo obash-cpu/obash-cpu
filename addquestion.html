@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Question</title>
+  <script src="questions.js"></script>
+</head>
+<body>
+  <h1>Add Question</h1>
+  <form id="addQuestionForm">
+    <label for="questionInput">Question:</label>
+    <input type="text" id="questionInput" required>
+    <br>
+    <label for="choicesInput">Choices:</label>
+    <input type="text" id="choicesInput" required>
+    <br>
+    <label for="answerInput">Answer (Index):</label>
+    <input type="number" id="answerInput" min="0" required>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    document.getElementById("addQuestionForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+      
+      // Get form inputs
+      var question = document.getElementById("questionInput").value;
+      var choices = document.getElementById("choicesInput").value.split(",");
+      var answer = parseInt(document.getElementById("answerInput").value);
+      
+      // Create new question object
+      var newQuestion = {
+        question: question,
+        choices: choices,
+        answer: answer
+      };
+      
+      // Add the new question to the questions array
+      questions.push(newQuestion);
+      
+      // Optionally, you can display a success message or redirect to another page
+      
+      // Reset the form inputs
+      document.getElementById("questionInput").value = "";
+      document.getElementById("choicesInput").value = "";
+      document.getElementById("answerInput").value = "";
+    });
+  </script>
+</body>
+</html>
