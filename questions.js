@@ -57,10 +57,17 @@ var questions = [
   }
 // Add more questions here...
 ];
-
 var score = 0; // Initial score
 var currentQuestionIndex = 0; // Current question index
 
+function addQuestion(question, choices, answer) {
+  var newQuestion = {
+    question: question,
+    choices: choices,
+    answer: answer
+  };
+  questions.push(newQuestion);
+},
 // Function to display a question
 function displayQuestion() {
   var questionContainer = document.getElementById("questionContainer");
