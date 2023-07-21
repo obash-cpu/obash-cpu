@@ -1,0 +1,22 @@
+.header-bar {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 50px;
+}
+
+.footer {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
